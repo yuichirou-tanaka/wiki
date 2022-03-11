@@ -4,3 +4,7 @@ RXD,TXDだけで行けるっぽい。
 # link
 ## repository
 - https://github.com/osafune/usjtag
+
+
+# FTDIの資料
+- https://ftdichip.com/document/application-notes/
