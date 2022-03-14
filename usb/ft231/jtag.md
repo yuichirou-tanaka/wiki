@@ -29,3 +29,6 @@ RXD,TXDだけで行けるっぽい。
 # Bit Bang モードについて
 - [できる！Bit Bangモード](https://ore-kb.net/wordpress/wp-content/uploads/2013/03/how_to_use_bitbang.pdf)
 - 汎用IOを変更できる
+
+# FTシリーズ比較
+- [FTDIのUSBシリアルチップ](https://lipoyang.hatenablog.com/entry/20140502/p1)
