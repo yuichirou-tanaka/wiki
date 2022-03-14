@@ -8,3 +8,4 @@ RXD,TXDだけで行けるっぽい。
 
 # FTDIの資料
 - https://ftdichip.com/document/application-notes/
+- [JTAGとは何か](http://www.tokudenkairo.co.jp/jtag/whatisjtag.html)
