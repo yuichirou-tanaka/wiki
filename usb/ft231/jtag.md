@@ -18,7 +18,8 @@ RXD,TXDだけで行けるっぽい。
 # FTDIの資料
 - https://ftdichip.com/document/application-notes/
 - [JTAGとは何か](http://www.tokudenkairo.co.jp/jtag/whatisjtag.html)
-
+## blog記事
+- http://suz-avr.sblo.jp/article/65099152.html
 
 # AE_FT232HL
 - https://akizukidenshi.com/catalog/g/gK-06503/
