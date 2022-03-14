@@ -24,3 +24,7 @@ RXD,TXDだけで行けるっぽい。
 - https://akizukidenshi.com/catalog/g/gK-06503/
 - MPSSEでつなげるピンが載っている。
 - ![image](https://user-images.githubusercontent.com/80798265/158094172-b252c08f-24d7-46d8-a0ff-8c5706629f21.png)
+
+# Bit Bang モードについて
+- [できる！Bit Bangモード](https://ore-kb.net/wordpress/wp-content/uploads/2013/03/how_to_use_bitbang.pdf)
+- 汎用IOを変更できる
