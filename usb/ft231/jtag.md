@@ -18,3 +18,9 @@ RXD,TXDだけで行けるっぽい。
 # FTDIの資料
 - https://ftdichip.com/document/application-notes/
 - [JTAGとは何か](http://www.tokudenkairo.co.jp/jtag/whatisjtag.html)
+
+
+# AE_FT232HL
+- https://akizukidenshi.com/catalog/g/gK-06503/
+- MPSSEでつなげるピンが載っている。
+- ![image](https://user-images.githubusercontent.com/80798265/158094172-b252c08f-24d7-46d8-a0ff-8c5706629f21.png)
