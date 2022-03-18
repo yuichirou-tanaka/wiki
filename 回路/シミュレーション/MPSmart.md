@@ -10,4 +10,6 @@
 
 # とりあえず既存のサンプルを落としてきて、それの抵抗値を変更してシミュレーションするとわかりやすい。
 - [[MPM3833C 2.75〜6V、3A、超小型、超低ノイズの電源モジュール](https://www.monolithicpower.com/jp/mpm3833c.html)
-  MPSmart Model Model of this part to simulate in MPSmart Softwareをダウンロードする
+
+MPSmart Model を落としてくる
+  
