@@ -6,7 +6,7 @@
 ```
 
 ```Verilog
-bits = help_bits[20 +: 5]; // 24-20
+bits = help_bits[20 +: 5]; // 24-20の配列地
 ```
 
 
@@ -21,3 +21,4 @@ begin
     $readmemb("rom.hex", mem);
 end
 ```
+ROMデータを配列に読み込む
