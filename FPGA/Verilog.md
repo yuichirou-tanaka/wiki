@@ -21,3 +21,6 @@ begin
 end
 ```
 ROMデータを配列に読み込む
+
+# casez
+- [補足　- z,xに対する比較演算子とcase文](http://zakii.la.coocan.jp/hdl/59a_zx_compare.htm)
