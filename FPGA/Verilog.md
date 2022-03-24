@@ -2,11 +2,10 @@
 - http://www.kumikomi.net/archives/2009/07/verilog_hdl_2.php?page=3
 
 ```Verilog
-+:
-```
-
-```Verilog
-bits = help_bits[20 +: 5]; // 24-20の配列地
+//+:
+bits = help_bits[20 +: 5]; // 24-20の配列
+//-:
+bits = help_bits[15 -: 5]; // 15-11の配列
 ```
 
 
