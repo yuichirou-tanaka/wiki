@@ -21,3 +21,7 @@ repeat ( 8 ) @( posedge CK ) TRIG = 1; // 8クロック待ってTRIGを1に
 - 　fork ～ join（並列処理ブロック）...　　並列に実行．
 
 - http://www.kumikomi.net/archives/2009/07/verilog_hdl_2.php?page=3
+
+# log ファイル書き出し
+## $fopen
+## $fwrite
