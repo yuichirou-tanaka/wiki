@@ -10,3 +10,8 @@ https://sites.google.com/site/allofsystemverilog/Home/timeunit-timeprecision
 
 ## 条件コンパイル `ifdef 〜 `else
 - https://www.k0b0srecord.com/entry/2018/02/01/141140
+
+# 関数
+## repeat
+## forever
+## fork forever
