@@ -13,5 +13,11 @@ https://sites.google.com/site/allofsystemverilog/Home/timeunit-timeprecision
 
 # 関数
 ## repeat
+repeat ( 8 ) @( posedge CK ) TRIG = 1; // 8クロック待ってTRIGを1に
+
 ## forever
-## fork forever
+- foreverは無限ループ
+## fork ~ join 
+- 　fork ～ join（並列処理ブロック）...　　並列に実行．
+
+- http://www.kumikomi.net/archives/2009/07/verilog_hdl_2.php?page=3
