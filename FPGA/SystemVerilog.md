@@ -5,10 +5,11 @@
 https://sites.google.com/site/allofsystemverilog/Home/timeunit-timeprecision
 
 
-# ifdef
+# 条件コンパイル `ifdef 〜 `else
+```SystemVerilog
 `ifdef 
-
-## 条件コンパイル `ifdef 〜 `else
+`endif
+```
 - https://www.k0b0srecord.com/entry/2018/02/01/141140
 
 # 関数
