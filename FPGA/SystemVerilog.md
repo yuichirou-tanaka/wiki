@@ -24,4 +24,10 @@ repeat ( 8 ) @( posedge CK ) TRIG = 1; // 8クロック待ってTRIGを1に
 
 # log ファイル書き出し
 ## $fopen
+```SystemVerilog
+file = $fopen("../log_output.txt", "w");
+```
 ## $fwrite
+```SystemVerilog
+$fwrite(file, "number of frame = %d", frame_c);
+```
