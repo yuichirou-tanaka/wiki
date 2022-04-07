@@ -14,3 +14,21 @@ End Sub
 ### 左上に揃える。
 
 - https://www.officepro.jp/excelvba/cell_align/index1.html
+
+# vbacのコンパイルとデコンパイル
+## コンパイル
+```input.bat
+cd %~dp0
+copy /Y .\vba\src.xlsm .\bin\src.xlsm
+cscript //noLogo vbac.wsf combine
+copy /Y .\bin\src.xlsm ..\vba\src.xlsm 
+pause
+```
+
+## デコンパイル 
+
+```export.bat
+cd %~dp0
+copy /Y src.xlsm .\bin\src.xlsm
+cscript //noLogo vbac.wsf decombine
+```
