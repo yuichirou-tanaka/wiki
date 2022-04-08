@@ -32,3 +32,7 @@ cd %~dp0
 copy /Y src.xlsm .\bin\src.xlsm
 cscript //noLogo vbac.wsf decombine
 ```
+
+# コピーセル
+## AutoFill
+- https://docs.microsoft.com/en-us/office/vba/api/excel.range.autofill
