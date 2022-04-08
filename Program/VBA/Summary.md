@@ -1,6 +1,9 @@
+# Range
+- [Range object (Excel)](https://docs.microsoft.com/en-us/office/vba/api/excel.range(object))
+
+
 # merge
 ## セル 
-
 ### merge
 ```vba
 ' セルのマージ
@@ -8,6 +11,8 @@ Public Sub MergeCells(xs As Integer, ys As Integer, xe As Integer, ye As Integer
     iwsht.Range(iwsht.Cells(ys, xs), iwsht.Cells(ye, xe)).Merge
 End Sub
 ```
+
+
 
 ### unmerge
 - https://docs.microsoft.com/en-us/office/vba/api/excel.range.unmerge
