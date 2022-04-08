@@ -36,3 +36,4 @@ cscript //noLogo vbac.wsf decombine
 # コピーセル
 ## AutoFill
 - https://docs.microsoft.com/en-us/office/vba/api/excel.range.autofill
+- https://www.moug.net/tech/exvba/0050146.html
