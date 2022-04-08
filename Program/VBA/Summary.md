@@ -1,6 +1,8 @@
 # Range
 - [Range object (Excel)](https://docs.microsoft.com/en-us/office/vba/api/excel.range(object))
 
+## boarder
+- [Range.Borders property (Excel)](https://docs.microsoft.com/en-us/office/vba/api/excel.range.borders)
 
 # merge
 ## セル 
