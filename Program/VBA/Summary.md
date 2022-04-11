@@ -44,3 +44,11 @@ cscript //noLogo vbac.wsf decombine
 ## AutoFill
 - https://docs.microsoft.com/en-us/office/vba/api/excel.range.autofill
 - https://www.moug.net/tech/exvba/0050146.html
+
+# フォルダ作成
+```vba
+    If Dir(dir, vbDirectory) = "" Then
+        MkDir dir
+    End If
+```
+- https://www.moug.net/tech/exvba/0060035.html
