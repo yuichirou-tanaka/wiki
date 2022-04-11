@@ -52,3 +52,7 @@ cscript //noLogo vbac.wsf decombine
     End If
 ```
 - https://www.moug.net/tech/exvba/0060035.html
+
+# 配列関係
+## Collection
+- https://valmore.work/excel-vba-collection/
