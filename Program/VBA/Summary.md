@@ -82,3 +82,7 @@ Sub Test_Collection()
     Debug.Print ("end -------")
 End Sub
 ```
+
+# Tips
+## Range
+- [セルがセル範囲内にあるかどうか](http://officetanaka.net/excel/vba/tips/tips118.htm)
