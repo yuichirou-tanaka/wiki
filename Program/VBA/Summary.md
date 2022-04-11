@@ -56,3 +56,29 @@ cscript //noLogo vbac.wsf decombine
 # 配列関係
 ## Collection
 - https://valmore.work/excel-vba-collection/
+```vba
+
+' collection
+Sub Test_Collection()
+    Dim col As New Collection
+    Dim i As Integer
+    For i = 0 To 5
+        col.Add ("fruit" & i)
+    Next i
+    col.Add ("apple")
+    col.Add ("banana")
+    col.Add ("Pear")
+    Debug.Print ("1all -------")
+    For i = 1 To col.Count
+        Debug.Print (col(i))
+    Next i
+    Debug.Print ("2 -------")
+    col.Remove (2)
+    col.Remove (5)
+    Debug.Print ("all -------")
+    For i = 1 To col.Count
+        Debug.Print (col(i))
+    Next i
+    Debug.Print ("end -------")
+End Sub
+```
