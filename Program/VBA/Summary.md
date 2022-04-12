@@ -100,3 +100,15 @@ End Sub
 - https://stackoverflow.com/questions/12611900/test-if-range-exists-in-vba
 - https://excel-ubara.com/excelvba1/EXCELVBA362.html
 - https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/on-error-statement#:~:text=time%20error%20occurs.-,On%20Error%20Resume%20Next,Error%20GoTo%20when%20accessing%20objects.
+
+## スペース除去
+### 全角と半角含めて
+```vba
+Function DeleteSpace(istr As String) As String
+    Dim s As String
+    s = istr
+    s = Replace(s, " ", "")
+    s = Replace(s, "　", "")
+    DeleteSpace = s
+End Function
+```
