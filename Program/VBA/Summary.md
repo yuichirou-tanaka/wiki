@@ -87,5 +87,16 @@ End Sub
 ## Range
 - [セルがセル範囲内にあるかどうか](http://officetanaka.net/excel/vba/tips/tips118.htm)
 
-* on error resume next
+* on error resume next エラーがあっても続行する
+```vba
+Sub SetCoordinateRow(isht As Worksheet, in_coordinate_row_str As String)
+    On Error Resume Next ' エラーにせずに次の処理を実行する
+    If (isht.Range(in_coordinate_row_str) Is Nothing) Then
+        Exit Sub
+    End If
+    coordinate_row = isht.Range(in_coordinate_row_str).Column
+End Sub
+```
+- https://stackoverflow.com/questions/12611900/test-if-range-exists-in-vba
 - https://excel-ubara.com/excelvba1/EXCELVBA362.html
+- https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/on-error-statement#:~:text=time%20error%20occurs.-,On%20Error%20Resume%20Next,Error%20GoTo%20when%20accessing%20objects.
