@@ -86,3 +86,6 @@ End Sub
 # Tips
 ## Range
 - [セルがセル範囲内にあるかどうか](http://officetanaka.net/excel/vba/tips/tips118.htm)
+
+* on error resume next
+- https://excel-ubara.com/excelvba1/EXCELVBA362.html
