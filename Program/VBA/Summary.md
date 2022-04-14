@@ -116,3 +116,7 @@ End Function
 # Str関数の注意点
 何故かスペースが先頭に入る
 - https://excel-ubara.com/excelvba8/EXCELVBA813.html#:~:text=Str%E9%96%A2%E6%95%B0%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9,%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%8C%E6%8C%BF%E5%85%A5%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82
+
+# エラー
+## 400について
+- https://excelchamps.com/vba/error-400/
