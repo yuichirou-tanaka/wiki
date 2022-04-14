@@ -120,3 +120,4 @@ End Function
 # エラー
 ## 400について
 - https://excelchamps.com/vba/error-400/
+RangeでAutoFillの時は範囲がおかしい場合も発生する
