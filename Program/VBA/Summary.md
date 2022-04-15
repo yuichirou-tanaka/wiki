@@ -119,5 +119,8 @@ End Function
 
 # エラー
 ## 400について
+### Range範囲
 - https://excelchamps.com/vba/error-400/
 RangeでAutoFillの時は範囲がおかしい場合も発生する
+### fileSaveAs
+開いているファイルに対してWorkbook.SaveAsすると起きる
