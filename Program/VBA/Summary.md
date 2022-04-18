@@ -124,3 +124,12 @@ End Function
 RangeでAutoFillの時は範囲がおかしい場合も発生する
 ### fileSaveAs
 開いているファイルに対してWorkbook.SaveAsすると起きる
+
+# 条件式の改行
+[ ]+[_]
+```VBA
+    If Not worksheet.Cells(20, 1) = "" Or _
+       Not worksheet.Cells(21, 1) = "" Then
+    End If
+```
+- http://plus1excel.web.fc2.com/learning/l301/t810.html
