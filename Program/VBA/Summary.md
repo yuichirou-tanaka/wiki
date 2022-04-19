@@ -1,5 +1,7 @@
 # Range
 - [Range object (Excel)](https://docs.microsoft.com/en-us/office/vba/api/excel.range(object))
+## Cellsには、Long型を使う
+Row,Columnの数は3万以上ある
 
 ## boarder
 - [Range.Borders property (Excel)](https://docs.microsoft.com/en-us/office/vba/api/excel.range.borders)
@@ -133,3 +135,4 @@ RangeでAutoFillの時は範囲がおかしい場合も発生する
     End If
 ```
 - http://plus1excel.web.fc2.com/learning/l301/t810.html
+
