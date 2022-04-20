@@ -137,3 +137,9 @@ RangeでAutoFillの時は範囲がおかしい場合も発生する
 ```
 - http://plus1excel.web.fc2.com/learning/l301/t810.html
 
+
+# シートの非表示しているものを全表示するコマンド
+ 1. VBAを開く
+ 2. Ctrl+G
+ 3. for each s in sheets:s.visible=true:next を入力する
+
