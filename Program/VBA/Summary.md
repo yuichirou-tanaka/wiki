@@ -143,3 +143,16 @@ RangeでAutoFillの時は範囲がおかしい場合も発生する
  2. Ctrl+G
  3. for each s in sheets:s.visible=true:next を入力する
 
+# 全シート名を表示する。
+- https://nkmrdai.com/vba-get-sheetnames-of-all/
+```vba
+Sub sandbox_Show_excel_allsheet_name()
+    Dim i As Long, cnt As Long
+    cnt = ThisWorkbook.Sheets.Count
+    For i = 1 To cnt
+       Debug.Print Sheets(i).Name
+    Next i
+End Sub
+```
+## マクロパスワード付きの場合
+いったん、マクロ無しのブックで保存する xlsx形式
