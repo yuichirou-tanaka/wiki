@@ -156,3 +156,9 @@ End Sub
 ```
 ## マクロパスワード付きの場合
 いったん、マクロ無しのブックで保存する xlsx形式
+
+# 高速化対応
+```vba
+Application.ScreenUpdate = False
+```
+- https://docs.microsoft.com/en-us/office/vba/api/excel.application.screenupdating
