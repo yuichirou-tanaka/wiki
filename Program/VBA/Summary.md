@@ -168,3 +168,5 @@ Application.ScreenUpdate = False
 - https://forum.ozgrid.com/forum/index.php?thread/4503-solved-vba-different-directories-same-name-for-workbooks/
 ### Workbook
 - https://docs.microsoft.com/en-us/office/vba/api/excel.workbook
+
+## 色変更
