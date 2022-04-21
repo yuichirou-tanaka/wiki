@@ -162,3 +162,9 @@ End Sub
 Application.ScreenUpdate = False
 ```
 - https://docs.microsoft.com/en-us/office/vba/api/excel.application.screenupdating
+# TIps
+## 同じファイル名を開く対応
+- 名前を付けて保存する
+- https://forum.ozgrid.com/forum/index.php?thread/4503-solved-vba-different-directories-same-name-for-workbooks/
+### Workbook
+- https://docs.microsoft.com/en-us/office/vba/api/excel.workbook
