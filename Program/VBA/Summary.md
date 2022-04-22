@@ -191,3 +191,7 @@ https://docs.microsoft.com/en-us/office/vba/api/excel.workbook.close
 
 # debug test 用コード
 - https://www.excel-chunchun.com/entry/stop-debug-assert-difference#DebugAssert
+
+# dropdown
+- https://www.get-digital-help.com/run-a-macro-from-a-drop-down-list-vba/#google_vignette
+- https://valmore.work/vba-create-dropdown-list/
