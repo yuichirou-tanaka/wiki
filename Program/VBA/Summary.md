@@ -170,3 +170,18 @@ Application.ScreenUpdate = False
 - https://docs.microsoft.com/en-us/office/vba/api/excel.workbook
 
 ## 色変更
+
+# ファイル削除
+- https://excelchamps.com/vba/delete-file/
+
+```vba
+KILL
+```
+
+```vba
+    Dim FSO
+    Set FSO = CreateObject("Scripting.FileSystemObject")
+    If FSO.FileExists(path) Then
+        FSO.DeleteFile path
+    End If
+```
