@@ -185,3 +185,6 @@ KILL
         FSO.DeleteFile path
     End If
 ```
+# workbook
+## close
+https://docs.microsoft.com/en-us/office/vba/api/excel.workbook.close
