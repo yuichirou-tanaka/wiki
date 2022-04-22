@@ -195,3 +195,15 @@ https://docs.microsoft.com/en-us/office/vba/api/excel.workbook.close
 # dropdown
 - https://www.get-digital-help.com/run-a-macro-from-a-drop-down-list-vba/#google_vignette
 - https://valmore.work/vba-create-dropdown-list/
+
+# worksheet event
+##  Activate
+- https://docs.microsoft.com/en-us/office/vba/api/excel.worksheet.activate(even)
+- 各シートに書く
+```vba
+Private Sub Worksheet_change(ByVal Target As Range)
+End Sub
+
+Private Sub Worksheet_Activate()
+End Sub
+```
