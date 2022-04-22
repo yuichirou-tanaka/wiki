@@ -188,3 +188,6 @@ KILL
 # workbook
 ## close
 https://docs.microsoft.com/en-us/office/vba/api/excel.workbook.close
+
+# debug test 用コード
+- https://www.excel-chunchun.com/entry/stop-debug-assert-difference#DebugAssert
