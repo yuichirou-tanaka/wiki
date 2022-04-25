@@ -207,3 +207,25 @@ End Sub
 Private Sub Worksheet_Activate()
 End Sub
 ```
+# Enum
+```vba
+Enum DatasType
+    ID1 = 0
+    ID2 = 1
+End Enum
+
+Sub TestEnumDataType()
+    
+    Debug.Print (DatasType.ID1)
+    Debug.Print (DatasType.ID2)
+    
+    Dim dt As DatasType
+    dt = ID1
+    Debug.Print (dt)
+    dt = ID2
+    Debug.Print (dt)
+    
+End Sub
+
+```
+- https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/enum-statement
