@@ -254,3 +254,35 @@ End Sub
 ```
 # 入力規則 ○×
 https://github.com/yuichirou-tanaka/wiki
+
+# Redim
+Preserve(配列要素を保持する)
+- https://www.isa-school.net/blog/?p=78
+```vba
+
+Sub Test_RedimPreserve()
+    Dim msOffice() As String, i As Integer
+    ReDim msOffice(2)
+    msOffice(0) = "Excel"
+    msOffice(1) = "Word"
+    msOffice(2) = "PowerPoint"
+    
+    For i = 0 To UBound(msOffice)
+        Debug.Print msOffice(i)
+    Next i
+    
+    ReDim Preserve msOffice(3)
+    msOffice(3) = "Access"
+    
+    For i = 0 To UBound(msOffice)
+        Debug.Print msOffice(i)
+    Next i
+        
+    ReDim msOffice(3)
+    msOffice(3) = "ABSD"
+    
+    For i = 0 To UBound(msOffice)
+        Debug.Print msOffice(i)
+    Next i
+End Sub
+```
