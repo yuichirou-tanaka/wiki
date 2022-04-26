@@ -252,3 +252,5 @@ Sub Test_FindNumberRegExp_t()
 End Sub
 
 ```
+# 入力規則 ○×
+https://github.com/yuichirou-tanaka/wiki
