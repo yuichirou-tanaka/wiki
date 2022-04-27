@@ -286,3 +286,43 @@ Sub Test_RedimPreserve()
     Next i
 End Sub
 ```
+
+# Find, FindPrevious
+- https://www.sejuku.net/blog/31055
+- https://docs.microsoft.com/en-us/office/vba/api/excel.range.find
+
+xlWholeで完全一致
+## sample code
+```vba
+Sub Test_FindNextPrev()
+    Dim c As Range
+    Dim c2 As Range
+    
+    ' 次の位置に行ってから、前の位置に行くので 12行目から範囲的に次の周期になるので30行目になる
+    Set c = Range("A5:A44").Find("XXXX", LookIn:=xlValues, LookAt:=xlWhole)
+    If c Is Nothing Then
+        Exit Sub
+    End If
+    Debug.Print (c.Address & " : " & c.Row & " " & c.Column)
+    
+    Set c2 = Range("A5:A44").FindPrevious(c)
+    If c2 Is Nothing Then
+        Exit Sub
+    End If
+    Debug.Print (c2.Address & " : " & c2.Row & " " & c2.Column)
+    
+    ' 次の位置に行ってから、前の位置に行くので 12行目から4行目になる
+    Set c = Range("A4:A65").Find("XXXX", LookIn:=xlValues, LookAt:=xlWhole)
+    If c Is Nothing Then
+        Exit Sub
+    End If
+    Debug.Print (c.Address & " : " & c.Row & " " & c.Column)
+    
+    Set c2 = Range("A4:A65").FindPrevious(c)
+    If c2 Is Nothing Then
+        Exit Sub
+    End If
+    Debug.Print (c2.Address & " : " & c2.Row & " " & c2.Column)
+End Sub
+
+```
