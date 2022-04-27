@@ -326,3 +326,10 @@ Sub Test_FindNextPrev()
 End Sub
 
 ```
+# Find
+## 複数条件判定
+文字の一致判定
+offsetで右に１つ移動してText取得して二つをつなげて=で判定すれば行ける。
+- https://www.mrexcel.com/board/threads/vba-find-and-multiple-match.676603/
+
+- https://www.mrexcel.com/board/threads/vba-find-and-multiple-match.676603/
