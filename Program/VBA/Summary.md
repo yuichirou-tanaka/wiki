@@ -333,3 +333,8 @@ offsetで右に１つ移動してText取得して二つをつなげて=で判定
 - https://www.mrexcel.com/board/threads/vba-find-and-multiple-match.676603/
 
 - https://www.mrexcel.com/board/threads/vba-find-and-multiple-match.676603/
+
+# 行全体を1行追加する
+```vba
+ Rows(rowidx).Insert shift:=xlDown
+```
