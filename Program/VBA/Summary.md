@@ -338,3 +338,4 @@ offsetで右に１つ移動してText取得して二つをつなげて=で判定
 ```vba
  Rows(rowidx).Insert shift:=xlDown
 ```
+- https://www.moug.net/tech/exvba/0050076.html
