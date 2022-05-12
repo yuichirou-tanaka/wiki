@@ -339,3 +339,18 @@ offsetで右に１つ移動してText取得して二つをつなげて=で判定
  Rows(rowidx).Insert shift:=xlDown
 ```
 - https://www.moug.net/tech/exvba/0050076.html
+# type構造体
+```vba
+Type TPEmployeeRecord    ' Create user-defined type.
+    ID As Integer    ' Define elements of data type.
+    Name As String
+End Type
+
+Sub Test_TypeState()
+    Dim myrec As TPEmployeeRecord
+    myrec.ID = 323
+    Debug.Print (myrec.ID)
+End Sub
+```
+- https://www.tipsfound.com/vba/02011
+- http://pineplanter.moo.jp/non-it-salaryman/2017/09/30/excel-vba-type/ 
