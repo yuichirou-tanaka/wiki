@@ -354,3 +354,7 @@ End Sub
 ```
 - https://www.tipsfound.com/vba/02011
 - http://pineplanter.moo.jp/non-it-salaryman/2017/09/30/excel-vba-type/ 
+
+# ariawase などのvbac.wsfのツールからエクセルにアクセスするときにセキュリティエラーが出る場合
+
+- マクロのセキュリティ　＞ から 開発者向けのマクロ設定　VBAプロジェクトオブジェクトモデルへのアクセスを信頼するにチェックする。
