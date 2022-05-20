@@ -361,3 +361,25 @@ End Sub
 
 # Output テキストの出力
 - https://www.sejuku.net/blog/87566
+
+
+# regex
+```vba
+Sub Test_FindNumberRegExp_t()
+    Dim stringOne As String
+    Dim regexOne As Object
+    Dim theMatches As Object
+    Dim Match As Object
+    Set regexOne = New RegExp
+     
+    regexOne.Pattern = "(AB|文字列)(.*)_(.*).txt"
+    regexOne.Global = False
+    stringOne = "AB12345_XXXX_FFFF.txt"
+     
+    Set theMatches = regexOne.Execute(stringOne)
+     
+    For Each Match In theMatches
+      Debug.Print Match.Value
+    Next
+End Sub
+```
