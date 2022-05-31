@@ -7,3 +7,10 @@
 - https://www.tetsuyanbo.net/tetsuyanblog/46913
 - https://qiita.com/mima_ita/items/aa811423d8c4410eca71
 - https://docs.microsoft.com/ja-jp/archive/blogs/office_client_development_support_blog/office-5
+
+```cs
+// アプリケーションの終了前にガベージ コレクトを強制します。GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
+// Application オブジェクトのガベージ コレクトを強制します。GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
+
+}
+```
