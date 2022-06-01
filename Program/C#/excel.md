@@ -9,8 +9,13 @@
 - https://docs.microsoft.com/ja-jp/archive/blogs/office_client_development_support_blog/office-5
 
 ```cs
-// アプリケーションの終了前にガベージ コレクトを強制します。GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
-// Application オブジェクトのガベージ コレクトを強制します。GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
+// アプリケーションの終了前にガベージ コレクトを強制します。
+GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
+// Application オブジェクトのガベージ コレクトを強制します。
+GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
 
 }
 ```
+## 結論
+　Worksheetを参照で渡さずに、クラス内で完結するように開放すれば残らない。
+ 値取得は文字列か数値で返す。
