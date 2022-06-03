@@ -1,3 +1,10 @@
+# array
+
+## 空判定のチェック
+### UBound
+- https://qiita.com/Q11Q/items/a2d61545d9e5c4e15f22
+
+
 # Range
 - [Range object (Excel)](https://docs.microsoft.com/en-us/office/vba/api/excel.range(object))
 ## Cellsには、Long型を使う
