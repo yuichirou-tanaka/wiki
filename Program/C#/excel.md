@@ -41,3 +41,5 @@ GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
 Microsoft.Office.Interop.Excel.Name ni;
 
 ```
+# find
+- [C#にてExcelの検索機能(Find関数）を利用する](http://ochi-lab.blogspot.com/2015/08/cexcelfind.html)
