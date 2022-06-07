@@ -36,4 +36,8 @@ GC.Collect();GC.WaitForPendingFinalizers();GC.Collect();
 
 ```
 
-# 
+# 名前の定義
+```c#
+Microsoft.Office.Interop.Excel.Name ni;
+
+```
