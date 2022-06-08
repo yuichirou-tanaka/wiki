@@ -43,3 +43,7 @@ Microsoft.Office.Interop.Excel.Name ni;
 ```
 # find
 - [C#にてExcelの検索機能(Find関数）を利用する](http://ochi-lab.blogspot.com/2015/08/cexcelfind.html)
+
+# 書式の取得
+♯# 背景色
+- [C#からExcelファイルのセルの書式や罫線を変更する方法](http://pineplanter.moo.jp/non-it-salaryman/2017/12/08/csharp-to-excel-format/)
