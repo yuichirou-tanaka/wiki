@@ -390,3 +390,10 @@ Sub Test_FindNumberRegExp_t()
     Next
 End Sub
 ```
+
+
+# error 未定義変数
+- https://excel-toshokan.com/err-compile1/
+```vba
+Option Explicit
+```
