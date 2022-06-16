@@ -4,3 +4,7 @@
 
 # dictionary
  https://www.modis.co.jp/candidate/insight/column_136
+
+
+# 重複した要素を削除する
+- [Listから重複した要素を削除するには？［C#／VB］](https://atmarkit.itmedia.co.jp/ait/articles/1703/29/news027.html)
