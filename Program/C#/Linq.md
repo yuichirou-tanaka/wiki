@@ -8,3 +8,7 @@
 
 # 重複した要素を削除する
 - [Listから重複した要素を削除するには？［C#／VB］](https://atmarkit.itmedia.co.jp/ait/articles/1703/29/news027.html)
+
+
+# where 複数条件
+- [C#でのLINQの条件指定Whereの使い方について詳しく解説します](https://www.fenet.jp/dotnet/column/language/8203/)
