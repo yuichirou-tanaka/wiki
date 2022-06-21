@@ -2,7 +2,8 @@
 - https://zero0nine.com/archives/3110
 - [Walkthrough: Performing a Drag-and-Drop Operation in Windows Forms](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/advanced/walkthrough-performing-a-drag-and-drop-operation-in-windows-forms?view=netframeworkdesktop-4.8)
 - [Windowsフォームフォームにドラッグされたファイルのパスを取得します](https://stackoverflow.com/questions/4364437/get-the-path-of-a-file-dragged-into-a-windows-forms-form)
-
+1. AllowDropをTrueにする
+1. Event DrogDropとDragEnterを設定する。
 ```c#
         private void Form1_DragDrop(object sender, DragEventArgs e)
         {
