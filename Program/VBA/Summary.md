@@ -397,3 +397,6 @@ End Sub
 ```vba
 Option Explicit
 ```
+
+# file open
+- https://excel-ubara.com/excelvba1/EXCELVBA374.html
