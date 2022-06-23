@@ -400,3 +400,7 @@ Option Explicit
 
 # file open
 - https://excel-ubara.com/excelvba1/EXCELVBA374.html
+
+# worksheet event
+## クリックしたときにイベントを呼び出す
+- https://www.forguncy.com/blog/20181217_clickevent
