@@ -36,3 +36,39 @@ https://shozo-gson.com/editing-open-excel/
 
 System.Runtime.InteropServices.Marshal.GetActiveObject
 で行ける
+
+```C#
+Microsoft.Office.Interop.Excel.Application xlApp;
+try
+{
+    xlApp = (Microsoft.Office.Interop.Excel.Application)System.Runtime.InteropServices.Marshal.GetActiveObject("Excel.Application");
+}
+catch (Exception ex)
+{
+    return;
+}
+Microsoft.Office.Interop.Excel.Range xlRange = null;
+try
+{
+    xlRange = xlApp.Selection;
+    if (xlRange == null)
+    {
+        return;
+    }
+    else if (xlRange.Value == null)
+    {
+        return;
+    }
+    Console.WriteLine("" + xlRange.Value);
+}
+finally
+{
+    foreach (object comObj in new object[] { xlRange })
+    {
+        if (comObj != null)
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(comObj);
+    }
+    System.Runtime.InteropServices.Marshal.ReleaseComObject(xlApp);
+}
+
+```
