@@ -72,3 +72,5 @@ finally
 }
 
 ```
+
+- https://gist.githubusercontent.com/yuichirou-tanaka/b18949ddef09c4f4799640e0b47559de/raw/5fdeb51bc815006508169dc262e0ff13fe38a336/ExcelCheckThread.%25EF%25BD%2583%25EF%25BD%2593
