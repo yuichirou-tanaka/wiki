@@ -29,3 +29,10 @@ class TaskTest1
         }
     }
 ```
+
+
+#  既に開いているエクセルについて
+https://shozo-gson.com/editing-open-excel/
+
+System.Runtime.InteropServices.Marshal.GetActiveObject
+で行ける
