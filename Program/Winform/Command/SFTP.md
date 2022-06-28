@@ -8,3 +8,26 @@ https://aprico-media.com/posts/3928
  chcp 932
 ## utf-8
  chcp 65001
+
+## sftp 例
+```python
+import paramiko
+# SFTP接続先の設定
+HOST = 'ホスト名'
+PORT = 22
+SFTP_USER = 'ユーザー名'
+SFTP_PASSWORD = 'パスワード'
+WORK_FOLDER='フォルダ'
+
+client = paramiko.SSHClient()
+client.set_missing_host_key_policy(paramiko.AutoAddPolicy)
+client.connect(HOST, PORT, SFTP_USER,SFTP_PASSWORD)
+
+sftpcon = client.open_sftp()
+sftpcon.chdir(WORK_FOLDER)
+
+files = sftpcon.listdir()
+for rf in files:
+    print(rf)
+
+```
