@@ -404,3 +404,11 @@ Option Explicit
 # worksheet event
 ## クリックしたときにイベントを呼び出す
 - https://www.forguncy.com/blog/20181217_clickevent
+
+# worksheet event
+## Worksheet_SelectionChange
+選択時
+
+## Worksheet_BeforeDoubleClick
+ダブルクリック
+- [【VBA】ダブルクリックのシートイベントを使う【BeforeDoubleClickを使う】](https://daitaideit.com/vba-sheet-event-doubleclick/)
