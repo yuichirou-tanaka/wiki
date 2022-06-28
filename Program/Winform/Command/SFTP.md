@@ -31,3 +31,7 @@ for rf in files:
     print(rf)
 
 ```
+
+
+# version 3だと文字化けするかも
+- https://titanftp.add-soft.jp/support/?p=946
