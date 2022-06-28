@@ -35,3 +35,4 @@ for rf in files:
 
 # version 3だと文字化けするかも
 - https://titanftp.add-soft.jp/support/?p=946
+- [https://webdrive.add-soft.jp/support/?p=3566](https://docs.paramiko.org/en/stable/api/sftp.html)
