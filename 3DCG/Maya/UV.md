@@ -20,12 +20,15 @@
 エッジに合わせるUVのエッジを
 1.エッジを選択
 2.右クリック長押しで表示　
+
 ![image](https://user-images.githubusercontent.com/80798265/177066432-070a94bc-f5f8-45ff-91b6-8e4f9ea227ce.png)
 
 ### レイアウト
 1.UVシェルで全部選択して
 2.レイアウトを押すと自動配置
+
 ![image](https://user-images.githubusercontent.com/80798265/177066463-a8290fb3-e67d-4843-9de0-8e3497dc4670.png)
 
 ※隙間を開けたい場合はパディング５にする。設定すればＯＫ
+
 ![image](https://user-images.githubusercontent.com/80798265/177066505-5903977e-cd28-4ad2-aaba-8fc9be82d688.png)
