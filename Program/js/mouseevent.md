@@ -1,3 +1,4 @@
+
 # Link
 - [マウスイベント (MouseEvent)](https://so-zou.jp/web-app/tech/programming/javascript/event/handler/mouse/#no2)
 - [mousemoveイベントの使い方](https://www.javadrive.jp/javascript/event/index18.html)
@@ -6,3 +7,48 @@
 
 - 透過させる
 [特定の要素をマウスイベントが透過するようにしたい](https://ja.stackoverflow.com/questions/33427/%E7%89%B9%E5%AE%9A%E3%81%AE%E8%A6%81%E7%B4%A0%E3%82%92%E3%83%9E%E3%82%A6%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%8C%E9%80%8F%E9%81%8E%E3%81%99%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84)
+
+
+# mouse event
+```js
+    let charax = 0;
+    function _t_MouseClick() {
+        console.log("mouse click");
+    }
+    function _t_mouseover(){
+        console.log("mouseover");
+    }
+    function _t_mousedown(){
+        console.log("mousedown");
+    }
+    function _t_mouseup(){
+        console.log("mouseup");
+    }
+    function _t_mouseenter(){
+        console.log("mouseenter");
+    }
+    function _t_mouseout(){
+        console.log("mouseout");
+    }
+    function _t_mouseleave(){
+        console.log("mouseleave");
+    }
+    function _t_mousemove(e){
+        console.log("mousemove");
+    }
+    function _t_wheel(){
+        console.log("wheel");
+    }
+    
+    let button = document.getElementById('_id');
+    button.addEventListener('click', _t_MouseClick);
+    button.addEventListener('mousedown', _t_mousedown);
+    button.addEventListener('mouseup', _t_mouseup);
+    button.addEventListener('mouseover', _t_mouseover);
+    button.addEventListener('mouseenter', _t_mouseenter);
+    button.addEventListener('mouseout', _t_mouseout);
+    button.addEventListener('mouseleave', _t_mouseleave);
+    button.onmousemove = _t_mousemove;
+    button.addEventListener('wheel  ', _t_wheel);
+```
+
