@@ -1,3 +1,6 @@
+# link
+- [はじめに](https://getbootstrap.jp/docs/5.0/getting-started/introduction/)
+
 # modal
 - https://getbootstrap.jp/docs/5.0/components/modal/
 - https://shogo-log.com/modal-javascript/
