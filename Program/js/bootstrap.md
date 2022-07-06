@@ -15,6 +15,8 @@
 ## スクロール
 modal-dialog-scrollable
 を追加する。
+- https://teratail.com/questions/221970
+- 
 ### modal-dialog
 ```js
 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
