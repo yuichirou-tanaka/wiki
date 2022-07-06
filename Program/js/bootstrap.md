@@ -5,7 +5,20 @@
 # modal
 - https://getbootstrap.jp/docs/5.0/components/modal/
 - https://shogo-log.com/modal-javascript/
-### スクロール
+
+## スクロール
+modal-dialog-scrollable
+を追加する。
+### modal-dialog
+```js
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+```
+  
+### modal-body
+```js
+<div class="modal-body modal-dialog-scrollable">
+```
+https://developer.mozilla.org/ja/docs/Web/CSS/scrollbar-width
 
 ### ダイアログ
 
