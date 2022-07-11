@@ -17,6 +17,9 @@
 ![Ctrl+Gフォルダ分け](https://user-images.githubusercontent.com/80798265/178240215-27e65cd7-3ae5-4ff6-a1a6-8bc89182b2b9.jpg)
 
 # マスク作成
+## 右クリックでマスクを追加
+![image](https://user-images.githubusercontent.com/80798265/178241114-1c6be127-2791-4b9b-9fc3-11e429931da2.png)
+- レイヤーでマスクを分ける
 ![image](https://user-images.githubusercontent.com/80798265/178240157-434d43b0-57ca-4c16-be4f-235e8f1cc530.png)
 
 # テクスチャの設定
