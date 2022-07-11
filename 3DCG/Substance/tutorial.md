@@ -13,6 +13,7 @@
 
 #  色分けフォルダーと塗りつぶしレイヤー作成
 1. フォルダ作成
+
 ![Ctrl+Gフォルダ分け](https://user-images.githubusercontent.com/80798265/178240215-27e65cd7-3ae5-4ff6-a1a6-8bc89182b2b9.jpg)
 
 # マスク作成
@@ -20,7 +21,9 @@
 
 # テクスチャの設定
 塗りつぶし処理修正
+
 ColorとRoughnessのみだけひとまず
+
 ![スクリーンショット 2022-07-11 180847](https://user-images.githubusercontent.com/80798265/178240324-3e05b899-b74c-4fb2-9cfd-30df509371f0.jpg)
 
 # テクスチャ追加方法
