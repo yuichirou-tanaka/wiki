@@ -1,7 +1,8 @@
 # 新規 FBX読み込み
 - ![image](https://user-images.githubusercontent.com/80798265/178391040-cee661bd-e687-45b2-b4eb-f50ccc8b0b7c.png)
 
-
+## モデルの差し替え
+- [【SubstancePainter】モデルを差し替える](https://summering26.com/substancepainter-mesh-replacement/)
 
 # メッシュマップをベイク
 編集 > メッシュマップをベイク
