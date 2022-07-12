@@ -56,3 +56,7 @@ ColorとRoughnessのみだけひとまず
 
 # カラー設定
 3面投影
+
+# ブラー
+
+- https://orenda.co.jp/blog/1667/
