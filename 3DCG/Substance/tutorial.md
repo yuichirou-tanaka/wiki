@@ -24,7 +24,10 @@
 
 ## 塗りつぶし
 ### ポリゴン
+1. マスクにする
+![image](https://user-images.githubusercontent.com/80798265/178387493-fee4f192-11ac-4f4c-846e-74bd0237ab4d.png)
 
+2. ポリゴン塗りつぶしでモデルを塗りつぶす
 ![image](https://user-images.githubusercontent.com/80798265/178387047-6bc2f32a-4eb1-4cea-aead-b5d2c8be8992.png)
 
 
