@@ -22,6 +22,12 @@
 - レイヤーでマスクを分ける
 ![image](https://user-images.githubusercontent.com/80798265/178240157-434d43b0-57ca-4c16-be4f-235e8f1cc530.png)
 
+## 塗りつぶし
+### ポリゴン
+
+![image](https://user-images.githubusercontent.com/80798265/178387047-6bc2f32a-4eb1-4cea-aead-b5d2c8be8992.png)
+
+
 # テクスチャの設定
 塗りつぶし処理修正
 
