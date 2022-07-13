@@ -17,3 +17,9 @@
 Ctrl+E
 
 ![image](https://user-images.githubusercontent.com/80798265/177730484-35844052-c8b4-43eb-a0c3-9bbd13b85ae3.png)
+
+# 回転
+- https://www.mdn.co.jp/reference/phtoshop/65
+
+1. レイヤー > スマートオブジェクト
+2. 編集メニュー→“変形”→“回転
