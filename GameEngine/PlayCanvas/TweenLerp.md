@@ -1,7 +1,10 @@
 # tween
 - https://github.com/playcanvas/playcanvas-tween
 - https://developer.playcanvas.com/ja/tutorials/tweening/
-- 
+## sample
+- https://playcanvas.com/editor/scene/1165246
+  - Tweenで移動してTweenで回転させている。
+
 ## ライブラリーを追加方法
 tween.jsをAssetフォルダに追加する。
 
