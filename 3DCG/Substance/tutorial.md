@@ -60,3 +60,14 @@ ColorとRoughnessのみだけひとまず
 # ブラー
 
 - https://orenda.co.jp/blog/1667/
+
+# 半透明
+1. shaderを pbr-metal-rough-with-alpha-blending にする。
+2. テクスチャセットにopacityを追加する。
+3. レイヤーを追加してOpacityをマスクでつける。 
+- https://www.betternowcgz.com/substance-painter-how-to-use-opacity/
+
+
+# テクスチャ出力
+- 1024 8bit
+![output_texture](https://user-images.githubusercontent.com/80798265/179138765-66594743-2ba8-4238-a8a8-ac8e3571cac4.jpg)
