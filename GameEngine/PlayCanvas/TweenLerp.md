@@ -8,3 +8,10 @@ tween.jsをAssetフォルダに追加する。
 - [Smooth camera movement](https://developer.playcanvas.com/ja/tutorials/smooth-camera-movement/)
 ## lerp
 - http://developer.playcanvas.com.s3-website-eu-west-1.amazonaws.com/ru/tutorials/smooth-camera-movement/
+## slerp
+- Quaternion
+  - https://developer.playcanvas.com/api/pc.Quat.html#slerp
+
+- Entity
+  - getRotaiton
+    - https://developer.playcanvas.com/api/pc.Entity.html#getLocalEulerAngles
