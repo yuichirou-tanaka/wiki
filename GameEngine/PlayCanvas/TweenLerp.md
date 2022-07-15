@@ -1,6 +1,7 @@
 # tween
 - https://github.com/playcanvas/playcanvas-tween
-# ライブラリーを追加方法
+## ライブラリーを追加方法
+tween.jsをAssetフォルダに追加する。
 
 
 # camera
