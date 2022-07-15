@@ -32,3 +32,5 @@
 ※隙間を開けたい場合はパディング５にする。設定すればＯＫ
 
 ![image](https://user-images.githubusercontent.com/80798265/177066505-5903977e-cd28-4ad2-aaba-8fc9be82d688.png)
+- レイアウトオプション
+  - https://knowledge.autodesk.com/ja/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/JPN/Maya-Modeling/files/GUID-47C4C13C-7DB9-46A0-B044-D336671BF266-htm.html
