@@ -65,7 +65,7 @@ ColorとRoughnessのみだけひとまず
 1. shaderを pbr-metal-rough-with-alpha-blending にする。
 2. テクスチャセットにopacityを追加する。
 3. レイヤーを追加してOpacityをマスクでつける。 
-- https://www.betternowcgz.com/substance-painter-how-to-use-opacity/
+- [Substance Painterで半透明を使う方法](https://www.betternowcgz.com/substance-painter-how-to-use-opacity/)
 
 
 # テクスチャ出力
