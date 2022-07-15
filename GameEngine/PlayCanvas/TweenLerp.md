@@ -1,5 +1,7 @@
 # tween
 - https://github.com/playcanvas/playcanvas-tween
+- https://developer.playcanvas.com/ja/tutorials/tweening/
+- 
 ## ライブラリーを追加方法
 tween.jsをAssetフォルダに追加する。
 
